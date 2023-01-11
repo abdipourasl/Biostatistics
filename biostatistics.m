@@ -148,7 +148,7 @@ end
 clear all
 close all
 clc
-load('C:/Users/ASUS/Desktop/BSc Thesis/BSc project/matlab.mat');
+load('C:/Users/ASUS/Desktop/tei.mat');
 skew = skewness(tei(:,:));
 
 for i=1:4

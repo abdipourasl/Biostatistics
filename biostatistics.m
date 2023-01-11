@@ -145,10 +145,10 @@ end
 
 
 %%
-clear all
-close all
-clc
-load('C:/Users/ASUS/Desktop/tei.mat');
+%clear all
+%close all
+%clc
+%load('C:/Users/ASUS/Desktop/tei.mat');
 skew = skewness(tei(:,:));
 
 for i=1:4
